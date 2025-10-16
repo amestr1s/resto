@@ -13,9 +13,17 @@
 
 body {
     box-sizing: border-box;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 }
 
+#content {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
