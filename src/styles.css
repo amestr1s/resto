@@ -85,7 +85,11 @@ nav button:hover {
   word-wrap: break-word;
 }
 
-.summary {
+.summary,
+.history,
+.mapo,
+.tonkatsu,
+.salmon {
     border: 3px solid red;
     border-radius: 10px;
     width: 75%;
@@ -94,30 +98,32 @@ nav button:hover {
     transition: transform 0.3s ease;
 }
 
-.summary:hover {
+.summary:hover,
+.history:hover,
+.mapo:hover,
+.tonkatsu:hover,
+.salmon:hover {
     transform: scale(0.95);
 }
 
-.summary p {
+.mapo h2,
+.tonkatsu h2,
+.salmon h2 {
+    text-align: center;
+    padding: 1em;
+}
+
+.summary p,
+.history p,
+.mapo p,
+.tonkatsu p,
+.salmon p {
   padding: 1em;
   word-wrap: break-word;
   font-size: 1.1rem;
 }
 
-.history {
-  border: 3px solid red;
-  border-radius: 10px;
-  width: 75%;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  height: auto;
-  transition: transform 0.3s ease;
-}
 
-.history:hover {
-    transform: scale(0.95);
-}
 
-.history p {
-  padding: 1em;
-  word-wrap: break-word;
-}
+
+
