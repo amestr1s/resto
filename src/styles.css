@@ -89,7 +89,11 @@ nav button:hover {
 .history,
 .mapo,
 .tonkatsu,
-.salmon {
+.salmon,
+.delivery,
+.tel,
+.address,
+.mail {
     border: 3px solid red;
     border-radius: 10px;
     width: 75%;
@@ -102,13 +106,21 @@ nav button:hover {
 .history:hover,
 .mapo:hover,
 .tonkatsu:hover,
-.salmon:hover {
+.salmon:hover,
+.delivery:hover,
+.tel:hover,
+.address:hover,
+.mail:hover {
     transform: scale(0.95);
 }
 
 .mapo h2,
 .tonkatsu h2,
-.salmon h2 {
+.salmon h2,
+.delivery h2,
+.tel h2,
+.address h2,
+.mail h2 {
     text-align: center;
     padding: 1em;
 }
@@ -117,7 +129,11 @@ nav button:hover {
 .history p,
 .mapo p,
 .tonkatsu p,
-.salmon p {
+.salmon p,
+.delivery p,
+.tel p,
+.address p,
+.mail p {
   padding: 1em;
   word-wrap: break-word;
   font-size: 1.1rem;
