@@ -10,8 +10,14 @@ function homePage() {
     divSum.classList.add("summary");
     content.appendChild(divSum);
     const summary = document.createElement("p");
-    summary.textContent = "This is the restaurant of your dreams, you can find all the ethnic foods you can think of.\n It is impossible to find anything like this.";
+    summary.textContent = "This is the restaurant of your dreams, you can find all the ethnic foods you can think of. It is impossible to find anything like this.";
     divSum.appendChild(summary);
+    const hisDiv = document.createElement("div");
+    hisDiv.classList.add("history");
+    content.appendChild(hisDiv);
+    const history = document.createElement("p");
+    history.textContent = "From a young age Marilia knew that indigenous food could only get you so far, so she started experimenting with food from multiple continents with an emphasis on asian culinary skills.";
+    hisDiv.appendChild(history);
     
     
     return;
