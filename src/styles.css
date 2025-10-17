@@ -9,7 +9,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: vakalo;
+    font-family: vakalo, serif;
 }
 
 body {
@@ -22,6 +22,13 @@ body {
     background-color: rebeccapurple;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 12px;
+}
+
 nav button {
     font-size: 1.3rem;
     padding: 2px 8px 2px 8px;
@@ -30,6 +37,9 @@ nav button {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     transition: transform 0.3s ease;
+    min-width: 120px;
+    text-align: center;
+    
 
 }
 
@@ -91,6 +101,7 @@ nav button:hover {
 .summary p {
   padding: 1em;
   word-wrap: break-word;
+  font-size: 1.1rem;
 }
 
 .history {
