@@ -34,6 +34,6 @@ contactBtn.addEventListener("click", (event) => {
     contactPage();
 });
 
-contactPage();
+// contactPage();
 // menuPage();
-// homePage();
+homePage();
