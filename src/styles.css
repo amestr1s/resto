@@ -1,15 +1,16 @@
 @font-face {
-  font-family: 'vakalo';
-  src: url(./VakaloLandingPages-Regular.woff2) format('woff2'),
-    url(./VakaloLandingPages-Regular.woff) format('woff');
-  font-weight: 600;
-  font-style: normal;
+    font-family: 'Iceberg';
+    src: url(Iceberg-Regular.woff2) format('woff2'),
+        url(Iceberg-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 * {
     padding: 0;
     margin: 0;
-    font-family: vakalo, serif;
+    font-family: Iceberg, serif;
     /* legacy ie10 */
     -ms-overflow-style: none;
     /* firefox  */
